@@ -1,36 +1,62 @@
 # UserHub Dashboard
 
-Angular User Management Dashboard with dynamic user operations and role analytics.
+A modern Angular-based User Management Dashboard designed to manage users efficiently with dynamic CRUD operations, role-based analytics, search functionality, and real-time visual insights.
 
-## Live Demo
-https://userhubdashboard.netlify.app
+🔗 **Live Demo:** https://userhubdashboard.netlify.app  
+🔗 **GitHub Repository:** https://github.com/iamDip-SK10/user-dashboard-app  
 
-## Features
-- Add User
-- Delete User
-- Search User
-- Pagination
-- Dynamic Pie Chart
-- Role Distribution
-- Responsive UI
-- Chart.js Integration
+---
 
-## Tech Stack
-Angular  
-TypeScript  
-Chart.js  
-HTML  
-CSS  
-RxJS  
+## ✨ Features
 
-## Run Locally
+### User Management
+- Add new users dynamically
+- Delete existing users
+- Real-time updates without page refresh
+- Role-based user classification (Admin / Editor / Viewer)
 
-npm install
+### Search & Navigation
+- Search users by name or email
+- Client-side pagination support
+- Dynamic user count display
 
-ng serve
+### Analytics & Visualization
+- Real-time role distribution pie chart
+- Automatic chart updates on add/delete operations
+- Interactive Chart.js visualization
 
-Open:
-http://localhost:4200
+### UI / Performance
+- Responsive dashboard layout
+- Modern card-based interface
+- Lazy-loaded modal component
+- Optimized rendering using **OnPush Change Detection**
+- Reactive state handling using RxJS
 
-## Author
-Subhadip Kumar
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- Angular
+- TypeScript
+- HTML
+
+**Libraries & Tools**
+- Chart.js
+- RxJS
+
+**Deployment**
+- Netlify
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+└── app/
+    ├── app.component.ts
+    ├── user-dashboard.component.ts
+    ├── user-form.component.ts
+    ├── user.model.ts
+    └── user.service.ts
